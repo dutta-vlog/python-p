@@ -38,5 +38,12 @@ set_of_numbers: typing.Set[int] = {1, 2, 3} <br><br>
     dict.keys() \n
     dict.values() \n
 
+- <b> array </b> -> array is for a similar type of variable, list and tupple can have multiple type but not in array
 
-- <b> array </b> -> 
+# Functions and Arguments
+Arguments: \n
+  1. undefined arguments should be before the defined one
+  2. *arg -> it actually takes all the extra values and creates a tupple
+  3. **keyarg -> it takes all the extra values which are defined with argument name and creates a dictionary
+
+
