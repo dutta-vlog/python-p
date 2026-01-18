@@ -40,12 +40,38 @@ set_of_numbers: typing.Set[int] = {1, 2, 3} <br><br>
 
 - <b> array </b> -> array is for a similar type of variable, list and tupple can have multiple type but not in array
 
-# Functions and Arguments
+# Functions and Arguments:
 Arguments: <br />
   1. undefined arguments should be before the defined one
   2. *arg -> it actually takes all the extra values and creates a tupple
   3. **keyarg -> it takes all the extra values which are defined with argument name and creates a dictionary
 
 <b>recursion </b>: you can set recursion limit by sys.setrecursionlimit(10) , and get using sys.getrecursionlimit() <br />
-<b>high-order function </b>: we can pass a function as argument to other functions, return them from functions, and store them in variables. <br />
+<b>higher-order function </b>: we can pass a function as argument to other functions, return them from functions, and store them in variables. <br />
+<b>lambda function </b>: it's also called anonymous function, it has no name and don't need to define it using <b> def func_name(): </b> <br />
+square = lambda x: x * x <br />
+print(square(5)) <br />
+
+# filter map reduce:
+      nums = [1, 2, 3, 4, 5, 6] 
+      evens = list(filter(lambda x: x % 2 == 0, nums)) 
+      print(evens) # Output: [2, 4, 6]  
+
+# inner function:
+      def outer_func(): 
+              print("I am inside outer function") 
+      
+              def inner_func(): 
+                  print("I am inside inner function") 
+      
+              return inner_func 
+      
+      inner_func_ref = outer_func() 
+      inner_func_ref() 
+      
+      ### output : 
+      I am inside outer function
+      I am inside inner function
+
+
 
