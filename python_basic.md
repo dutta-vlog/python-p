@@ -23,29 +23,29 @@ dictionary: typing.Dict[str, int] = {"key1": 1, "key2": 2} <br><br>
 set_of_numbers: typing.Set[int] = {1, 2, 3} <br><br>
 
 
-- <b>list </b> -> define with sqare bracket [] : list is Mutable \n
-- <b>tupple </b> -> define with bracket () : tupple is Immutable \n
-- <b>set </b> -> define with  bracket {} \n
-  : set doesn't guarantee the order \n
-  : set doesn't allow duplicate value \n
-- <b>dictionary </b> -> define with bracket {},  dict = {key:value, key1:value1} \n
-  : it is a key value pair \n
-  : keys are always unique, if you enter duplicate latest one will be in consider \n
-  : below are methods to access this \n
-    dict[key1] - return corresponding value \n
-    dict.get(key1, 'Not Available') \n
-    del dict[key], dict.pop('key') - to delete or remove a pair \n
-    dict.keys() \n
-    dict.values() \n
+- <b>list </b> -> define with sqare bracket [] : list is Mutable <br />
+- <b>tupple </b> -> define with bracket () : tupple is Immutable <br />
+- <b>set </b> -> define with  bracket {} <br />
+  : set doesn't guarantee the order <br />
+  : set doesn't allow duplicate value <br />
+- <b>dictionary </b> -> define with bracket {},  dict = {key:value, key1:value1} <br />
+  : it is a key value pair <br />
+  : keys are always unique, if you enter duplicate latest one will be in consider <br />
+  : below are methods to access this <br />
+    dict[key1] - return corresponding value <br />
+    dict.get(key1, 'Not Available') <br />
+    del dict[key], dict.pop('key') - to delete or remove a pair <br />
+    dict.keys() <br />
+    dict.values() <br />
 
 - <b> array </b> -> array is for a similar type of variable, list and tupple can have multiple type but not in array
 
 # Functions and Arguments
-Arguments: \n
+Arguments: <br />
   1. undefined arguments should be before the defined one
   2. *arg -> it actually takes all the extra values and creates a tupple
   3. **keyarg -> it takes all the extra values which are defined with argument name and creates a dictionary
 
-recursion : you can set recursion limit by sys.setrecursionlimit(10) , and get using sys.getrecursionlimit()
-
+<b>recursion </b>: you can set recursion limit by sys.setrecursionlimit(10) , and get using sys.getrecursionlimit() <br />
+<b>high-order function </b>: we can pass a function as argument to other functions, return them from functions, and store them in variables. <br />
 
