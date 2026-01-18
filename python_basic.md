@@ -46,4 +46,6 @@ Arguments: \n
   2. *arg -> it actually takes all the extra values and creates a tupple
   3. **keyarg -> it takes all the extra values which are defined with argument name and creates a dictionary
 
+recursion : you can set recursion limit by sys.setrecursionlimit(10) , and get using sys.getrecursionlimit()
+
 
