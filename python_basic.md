@@ -73,5 +73,25 @@ print(square(5)) <br />
       I am inside outer function
       I am inside inner function
 
+# decorator:
+    def my_decorator(func):
+        def wrapper():
+            print("Something is happening before the function is called.")
+            func()  # This is your original function being called inside decorator
+            print("Something is happening after the function is called.")
+            return func()
+        return wrapper
 
+    @my_decorator
+    def say_hello():
+        print("Hello!")
+    
+    say_hello()
+
+
+# Modules and packages:
+In Python, a Module is simply a file containing Python code. It can define functions, classes, and variables. If you save a file named math_helpers.py, you have created a module named math_helpers.
+Basically '.py' files are a Module, where we can write functions, classes or both.
+
+    
 
