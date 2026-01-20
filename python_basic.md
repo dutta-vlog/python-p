@@ -108,3 +108,15 @@ Basically '.py' files are a Module, where we can write functions, classes or bot
 
 <img width="575" height="239" alt="Screenshot 2026-01-21 at 3 06 10 AM" src="https://github.com/user-attachments/assets/8f1c37b5-2334-4755-8108-6c1613972163" />
 
+# methods: 
+- instance method : access via object only, first argument is self
+- classmethod: access via class itself, first argument is cls
+- staticmethod ; access via class itself, no cls or self is needed
+
+<img width="761" height="292" alt="image" src="https://github.com/user-attachments/assets/b72c1261-68b1-49d2-99f5-d014ac396fdd" />
+
+# class and instance variable
+<img width="648" height="211" alt="image" src="https://github.com/user-attachments/assets/37517c45-c2bc-4969-a66c-c8efbf68b0d6" />
+
+
+
