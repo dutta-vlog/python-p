@@ -37,7 +37,6 @@ set_of_numbers: typing.Set[int] = {1, 2, 3} <br><br>
     del dict[key], dict.pop('key') - to delete or remove a pair <br />
     dict.keys() <br />
     dict.values() <br />
-
 - <b> array </b> -> array is for a similar type of variable, list and tupple can have multiple type but not in array
 
 # Functions and Arguments:
@@ -98,4 +97,14 @@ Basically '.py' files are a Module, where we can write functions, classes or bot
 - <b> globals() </b> : returns all the global variable, including name, doc, package, file, etc <br />
 - <b> __name __ </b> : value is __main __ when current file is the main runinng file, or module name when some other file is the main file and calling this file
 
+
+
+# Object:
+- **self** is always required in python as a first parameter in method, this is same as this in java. we can access instance method as well using **self.variable**
+- **__init __()** method is not a constructor, it always gets called whenever object is created, in't called initializer method
+- we can also create an object using **ClassName.__ new__(className)**, this time __init __() will not get called
+- __ new __() is a constructor, it actually creates the object in memory.
+- python actually calls both the methods
+
+<img width="575" height="239" alt="Screenshot 2026-01-21 at 3 06 10 AM" src="https://github.com/user-attachments/assets/8f1c37b5-2334-4755-8108-6c1613972163" />
 
