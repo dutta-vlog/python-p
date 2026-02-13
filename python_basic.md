@@ -95,7 +95,9 @@ Basically '.py' files are a Module, where we can write functions, classes or bot
     
 # Special variable:
 - <b> globals() </b> : returns all the global variable, including name, doc, package, file, etc <br />
-- <b> __name __ </b> : value is __main __ when current file is the main runinng file, or module name when some other file is the main file and calling this file
+- <b> __name __ </b> : value is __main __ when current file is the main runinng file, or module name when some other file is the main file and calling this file <br />
+- <b> locals() </b>: To quickly dump all current variables to a log file
+<img width="660" height="253" alt="image" src="https://github.com/user-attachments/assets/ba14850f-4656-40f2-b7f4-3aad2ac29c6a" />
 
 
 
