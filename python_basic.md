@@ -122,4 +122,12 @@ Basically '.py' files are a Module, where we can write functions, classes or bot
 <img width="648" height="211" alt="image" src="https://github.com/user-attachments/assets/37517c45-c2bc-4969-a66c-c8efbf68b0d6" />
 
 
-
+# List comprehension
+# Generator Expression 
+<b> Some built-in functions return generators </b>
+gen = range(10)       # range is a generator-like object </br>
+gen = enumerate([1, 2, 3]) </br>
+gen = zip([1, 2], ['a', 'b']) </br>
+gen = map(str, [1, 2, 3]) </br>
+gen = filter(lambda x: x > 0, [-1, 0, 1, 2]) </br>
+# lamda expression
